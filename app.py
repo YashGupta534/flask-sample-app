@@ -33,5 +33,6 @@ def display(name):
     return render_template('display.html',file_content = file_content )
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=5000)
+    app.run()
+    # app.run(host='0.0.0.0',port=5000)
     # app.run(host='0.0.0.0', port=5000, debug=True )

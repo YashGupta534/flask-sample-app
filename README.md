@@ -1,1 +1,3 @@
-# flask-sample-app
+# Flask Sample Application
+Framework Flask
+Server Gunicorn
