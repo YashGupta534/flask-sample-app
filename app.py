@@ -1,13 +1,16 @@
 from flask import Flask, send_file, render_template
+from flask_cors import CORS, cross_origin
 import datetime
 import logging
 logging.basicConfig(level=logging.DEBUG, filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/', methods=['GET','POST']) 
+@cross_origin()
 def index(): 
-    log_endpoint("Index")
+    log_endpoint("Index - With CORS")
     return render_template('index.html',message="Welcome to Index Page")
 
 @app.route('/info', methods=['GET','POST'])
