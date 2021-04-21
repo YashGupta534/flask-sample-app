@@ -1,1 +1,4 @@
 werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 11:27:42] "[37mGET / HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 11:27:44] "[37mGET / HTTP/1.1[0m" 200 -
+werkzeug - INFO - 127.0.0.1 - - [21/Apr/2021 11:27:47] "[37mGET /display/endpoint_url.txt HTTP/1.1[0m" 200 -
